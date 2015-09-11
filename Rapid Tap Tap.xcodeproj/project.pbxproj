@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		964755D51BA362BB009CC197 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964755D41BA362BB009CC197 /* AppDelegate.swift */; };
+		964755D71BA362BB009CC197 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964755D61BA362BB009CC197 /* ViewController.swift */; };
+		964755DA1BA362BB009CC197 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 964755D81BA362BB009CC197 /* Main.storyboard */; };
+		964755DC1BA362BB009CC197 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 964755DB1BA362BB009CC197 /* Images.xcassets */; };
+		964755DF1BA362BB009CC197 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 964755DD1BA362BB009CC197 /* LaunchScreen.xib */; };
+		964755EB1BA362BC009CC197 /* Rapid_Tap_TapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964755EA1BA362BC009CC197 /* Rapid_Tap_TapTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		964755E51BA362BC009CC197 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 964755C71BA362BB009CC197 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 964755CE1BA362BB009CC197;
+			remoteInfo = "Rapid Tap Tap";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		964755CF1BA362BB009CC197 /* Rapid Tap Tap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rapid Tap Tap.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		964755D31BA362BB009CC197 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		964755D41BA362BB009CC197 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		964755D61BA362BB009CC197 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		964755D91BA362BB009CC197 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		964755DB1BA362BB009CC197 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		964755DE1BA362BB009CC197 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		964755E41BA362BC009CC197 /* Rapid Tap TapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rapid Tap TapTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		964755E91BA362BC009CC197 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		964755EA1BA362BC009CC197 /* Rapid_Tap_TapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rapid_Tap_TapTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		964755CC1BA362BB009CC197 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		964755E11BA362BC009CC197 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		964755C61BA362BB009CC197 = {
+			isa = PBXGroup;
+			children = (
+				964755D11BA362BB009CC197 /* Rapid Tap Tap */,
+				964755E71BA362BC009CC197 /* Rapid Tap TapTests */,
+				964755D01BA362BB009CC197 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		964755D01BA362BB009CC197 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				964755CF1BA362BB009CC197 /* Rapid Tap Tap.app */,
+				964755E41BA362BC009CC197 /* Rapid Tap TapTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		964755D11BA362BB009CC197 /* Rapid Tap Tap */ = {
+			isa = PBXGroup;
+			children = (
+				964755D41BA362BB009CC197 /* AppDelegate.swift */,
+				964755D61BA362BB009CC197 /* ViewController.swift */,
+				964755D81BA362BB009CC197 /* Main.storyboard */,
+				964755DB1BA362BB009CC197 /* Images.xcassets */,
+				964755DD1BA362BB009CC197 /* LaunchScreen.xib */,
+				964755D21BA362BB009CC197 /* Supporting Files */,
+			);
+			path = "Rapid Tap Tap";
+			sourceTree = "<group>";
+		};
+		964755D21BA362BB009CC197 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				964755D31BA362BB009CC197 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		964755E71BA362BC009CC197 /* Rapid Tap TapTests */ = {
+			isa = PBXGroup;
+			children = (
+				964755EA1BA362BC009CC197 /* Rapid_Tap_TapTests.swift */,
+				964755E81BA362BC009CC197 /* Supporting Files */,
+			);
+			path = "Rapid Tap TapTests";
+			sourceTree = "<group>";
+		};
+		964755E81BA362BC009CC197 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				964755E91BA362BC009CC197 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		964755CE1BA362BB009CC197 /* Rapid Tap Tap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 964755EE1BA362BC009CC197 /* Build configuration list for PBXNativeTarget "Rapid Tap Tap" */;
+			buildPhases = (
+				964755CB1BA362BB009CC197 /* Sources */,
+				964755CC1BA362BB009CC197 /* Frameworks */,
+				964755CD1BA362BB009CC197 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rapid Tap Tap";
+			productName = "Rapid Tap Tap";
+			productReference = 964755CF1BA362BB009CC197 /* Rapid Tap Tap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		964755E31BA362BC009CC197 /* Rapid Tap TapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 964755F11BA362BC009CC197 /* Build configuration list for PBXNativeTarget "Rapid Tap TapTests" */;
+			buildPhases = (
+				964755E01BA362BC009CC197 /* Sources */,
+				964755E11BA362BC009CC197 /* Frameworks */,
+				964755E21BA362BC009CC197 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				964755E61BA362BC009CC197 /* PBXTargetDependency */,
+			);
+			name = "Rapid Tap TapTests";
+			productName = "Rapid Tap TapTests";
+			productReference = 964755E41BA362BC009CC197 /* Rapid Tap TapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		964755C71BA362BB009CC197 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Kevin Kirkhoff";
+				TargetAttributes = {
+					964755CE1BA362BB009CC197 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					964755E31BA362BC009CC197 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 964755CE1BA362BB009CC197;
+					};
+				};
+			};
+			buildConfigurationList = 964755CA1BA362BB009CC197 /* Build configuration list for PBXProject "Rapid Tap Tap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 964755C61BA362BB009CC197;
+			productRefGroup = 964755D01BA362BB009CC197 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				964755CE1BA362BB009CC197 /* Rapid Tap Tap */,
+				964755E31BA362BC009CC197 /* Rapid Tap TapTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		964755CD1BA362BB009CC197 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				964755DA1BA362BB009CC197 /* Main.storyboard in Resources */,
+				964755DF1BA362BB009CC197 /* LaunchScreen.xib in Resources */,
+				964755DC1BA362BB009CC197 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		964755E21BA362BC009CC197 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		964755CB1BA362BB009CC197 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				964755D71BA362BB009CC197 /* ViewController.swift in Sources */,
+				964755D51BA362BB009CC197 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		964755E01BA362BC009CC197 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				964755EB1BA362BC009CC197 /* Rapid_Tap_TapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		964755E61BA362BC009CC197 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 964755CE1BA362BB009CC197 /* Rapid Tap Tap */;
+			targetProxy = 964755E51BA362BC009CC197 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		964755D81BA362BB009CC197 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				964755D91BA362BB009CC197 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		964755DD1BA362BB009CC197 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				964755DE1BA362BB009CC197 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		964755EC1BA362BC009CC197 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		964755ED1BA362BC009CC197 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		964755EF1BA362BC009CC197 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Rapid Tap Tap/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		964755F01BA362BC009CC197 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Rapid Tap Tap/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		964755F21BA362BC009CC197 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Rapid Tap TapTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rapid Tap Tap.app/Rapid Tap Tap";
+			};
+			name = Debug;
+		};
+		964755F31BA362BC009CC197 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Rapid Tap TapTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rapid Tap Tap.app/Rapid Tap Tap";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		964755CA1BA362BB009CC197 /* Build configuration list for PBXProject "Rapid Tap Tap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				964755EC1BA362BC009CC197 /* Debug */,
+				964755ED1BA362BC009CC197 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		964755EE1BA362BC009CC197 /* Build configuration list for PBXNativeTarget "Rapid Tap Tap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				964755EF1BA362BC009CC197 /* Debug */,
+				964755F01BA362BC009CC197 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		964755F11BA362BC009CC197 /* Build configuration list for PBXNativeTarget "Rapid Tap TapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				964755F21BA362BC009CC197 /* Debug */,
+				964755F31BA362BC009CC197 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 964755C71BA362BB009CC197 /* Project object */;
+}
